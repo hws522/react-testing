@@ -38,7 +38,7 @@
  * 현재 여러 함수를 내보내고 있기 때문에 테스트 케이스가 망가졌을 것입니다. 다음과 같이 테스트 코드를 수정하세요. 
  */
 
-const { sum, sumOf } = require('./sum');
+const { sum, sumOf } = require('../sum');
 
 describe('sum', () => {
   it('calculates 1 + 2', () => {

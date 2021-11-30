@@ -28,7 +28,9 @@
   }
   
   // 각각 내보내기
-  exports.sum = sum;
-  exports.sumOf = sumOf;
+  const _sum = sum;
+export { _sum as sum };
+  const _sumOf = sumOf;
+export { _sumOf as sumOf };
 
   // * 배열 내장함수 reduce 를 사용해서 배열의 총합을 구해주었습니다. 만약에 여기서 우리가 실수를 했었더라면? 테스트 케이스가 실패하여 바로 알 수 있겠죠?
